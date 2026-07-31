@@ -1,0 +1,35 @@
+# Ooak Data
+
+> Applied AI research lab building the data infrastructure for frontier AI. We
+> turn real company data into RL environments where AI agents learn to work in
+> the real world: anonymized digital twins of enterprise tools, expert-calibrated
+> tasks, multi-step multi-tool workflows.
+
+Every page on this site is available as Markdown via HTTP content negotiation —
+send `Accept: text/markdown` and the response is served as Markdown directly,
+with an `x-markdown-tokens` header.
+
+## Core pages
+
+- [Home](https://ooakdata.com/): What Ooak Data builds and why it matters for frontier AI.
+- [Research](https://ooakdata.com/research): Essays on evaluation methodology, dataset design, and the gap between benchmark performance and real-world capability.
+- [Partner](https://ooakdata.com/partner): How enterprises and AI labs partner with us on data and environments.
+- [Careers](https://ooakdata.com/careers): Open roles.
+- [Contact](https://ooakdata.com/contact): Get in touch.
+
+## Research essays
+
+- [Why synthetic benchmarks are holding AI back](https://ooakdata.com/research/why-synthetic-benchmarks-are-holding-ai-back): Models that ace leaderboards routinely fail in production. The industry over-indexes on synthetic benchmarks that do not reflect real-world complexity.
+- [The data problem in agentic AI](https://ooakdata.com/research/the-data-problem-in-agentic-ai): AI agents need fundamentally different data than chatbots: multi-step interaction trajectories, tool-use demonstrations, multi-modal workflow data. This data barely exists.
+- [From sandbox to production](https://ooakdata.com/research/from-sandbox-to-production): 80% of AI projects fail in production. The problem is not the models; it is the gap between evaluation conditions and deployment conditions.
+
+## Feeds and indices
+
+- [RSS feed](https://ooakdata.com/rss.xml): Research essays in RSS 2.0 with full content.
+- [Sitemap](https://ooakdata.com/sitemap.xml): All canonical URLs.
+
+## Policy
+
+- Crawling and AI training are explicitly permitted (see `/robots.txt` and the
+  `Content-Signal: ai-train=yes, search=yes, ai-input=yes` response header).
+- Quoting and attribution: link back to the canonical URL.
