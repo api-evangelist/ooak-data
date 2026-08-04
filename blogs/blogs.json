@@ -2,6 +2,13 @@
   "repo": "ooak-data",
   "feeds": [
     {
+      "source": "https://ooakdata.com/rss.xml",
+      "feed_url": "https://ooakdata.com/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://ooakdata.com",
       "feed_url": "https://ooakdata.com/rss.xml",
       "title": "",
@@ -9,6 +16,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-07-25T15:00:33Z"
+  "post_count": 3,
+  "fetched": "2026-08-01T15:49:00Z"
 }
